@@ -24,18 +24,19 @@
 
 .attribution {
   margin-top: 1rem;
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
   font-size: 0.8rem;
-  color:#003333;
+  color: #003333;
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
+  padding: 1rem;
   font-family: Manrope, sans-serif;
   background-color: var(--light-gray-blue);
   color: var(--dark-blue);
@@ -58,8 +59,8 @@ body {
   background-color: var(--card-background-color);
   align-self: center;
   max-width: 55rem;
-  max-height: 25rem;
-  height: 25rem;
+
+  height: 28rem;
   justify-content: space-between;
   display: flex;
   flex-direction: row;
@@ -84,7 +85,6 @@ body {
   flex: 2;
   display: flex;
   flex-direction: column;
-  /* margin: 3rem; */
 }
 
 .card__title {
@@ -109,6 +109,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 1rem;
 }
 
 .user {
